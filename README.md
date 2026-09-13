@@ -32,6 +32,8 @@ The pipeline simulates a real-world production environment using a chronological
 ## Results & Impact
 By comparing three distinct approaches (Static, Naive, and Adaptive), the pipeline demonstrates a clear Pareto-optimal trade-off:
 
+![Adaptive ML Pipeline Dashboard](assets/dashboard.png)
+
 | Model Approach | Retrains (Compute Cost) | Average MAE (Accuracy) | Verdict |
 | :--- | :---: | :---: | :--- |
 | **Static** (No Retraining) | 0 | ~1080 | Fails as data shifts. |
@@ -53,7 +55,9 @@ By comparing three distinct approaches (Static, Naive, and Adaptive), the pipeli
 ├── adaptive_ml_pipeline.ipynb # Main notebook containing the full pipeline
 ├── data/
 │   ├── train.csv             # Historical sales data (Kaggle)
-│   └── store.csv             # Store metadata (Kaggle)
+│   └── store.csv
+├──assets/
+    └── dashboard.png         # dashboard image
 └── requirements.txt          # Python dependencies
 ```
 
