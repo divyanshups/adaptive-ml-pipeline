@@ -38,7 +38,7 @@ By comparing three distinct approaches (Static, Naive, and Adaptive), the pipeli
 | :--- | :---: | :---: | :--- |
 | **Static** (No Retraining) | 0 | ~1080 | Fails as data shifts. |
 | **Naive** (Blind Monthly) | 19 | ~1002 | High accuracy, but massive compute waste. |
-| **Adaptive** (Smart Pipeline) | **~5** | **~1025** | **Achieves 97% of Naive accuracy with ~90 less compute.** |
+| **Adaptive** (Smart Pipeline) | **2** | **1027** | **Achieves 97% of Naive accuracy with ~90 less compute.** |
 
 
 ## Tech Stack
